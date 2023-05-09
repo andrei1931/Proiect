@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Proiecte Arduino</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+   
+       <h1 id="welcome">ArduHub</h1>
+        
+            <nav>
+            <a href="/">Acasa</a>
+            <a href="proiecte">Proiecte</a>
+        </nav>
+        <ul>
+            <% for(let i=0; i<date.length; i++) { %>
+              <li><%= date[i].camp_tabel %></li>
+            <% } %>
+          </ul>
+       
+</div>
+<style>
+    body{
+       background-color: aqua;
+
+    }
+#welcome{
+    background-color: aqua;
+    text-align: center;
+    color:white;
+
+} 
+#proj{
+    background-color: aqua;
+    color: white;
+}
+#msg{
+    background-color: aqua;
+    text-align:center;
+    color:white
+}
+#paragraph{
+    background-color: aqua;
+    text-align: center;
+    color: white;
+}
+ul{
+  
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}  
+li{
+    display: inline;
+   
+} 
+li a{
+    color: white;
+}
+</style>
+</html>
